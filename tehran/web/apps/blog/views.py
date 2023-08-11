@@ -12,3 +12,4 @@ def index(request: HttpRequest) -> JsonResponse:
             'desc': post.description,
         })
     return JsonResponse(data, safe=False)
+
